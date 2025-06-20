@@ -1,0 +1,37 @@
+.attendance-container {
+  text-align: center;
+}
+
+.status-badge {
+  background-color: #e0e0e0;
+  color: #555;
+  font-size: 12px;
+  padding: 6px 12px;
+  border-radius: 9999px;
+  margin-bottom: 16px;
+}
+
+.date {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.time {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.clock-button {
+  background-color: #000;
+  color: #fff;
+  padding: 12px 48px;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.clock-button:hover {
+  opacity: 0.85;
+}

@@ -1,0 +1,69 @@
+.login-form__heading h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .form__group {
+    margin-bottom: 24px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .form__label--item {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 6px;
+    font-weight: 600;
+  }
+
+  .form__input--text input {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .form__button {
+    max-width: 500px;     /* 入力欄と同じ幅 */
+    width: 100%;          /* 自分の中では100%幅 */
+    margin: 30px auto 0;  /* 中央寄せ */
+  }
+  
+  .form__button-submit {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 14px 80px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+  
+  .form__button-submit:hover {
+    opacity: 0.85;
+  }
+  
+  /* ログインリンク */
+  .register__link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .register__button-submit {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .register__button-submit:hover {
+    text-decoration: underline;
+  }
+

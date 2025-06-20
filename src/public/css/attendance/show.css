@@ -1,0 +1,58 @@
+.container {
+    padding: 40px;
+    background-color: #f3f3f7;
+    min-height: 100vh;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 24px;
+    border-left: 5px solid black;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.attendance-box {
+    border: 2px solid #00aaff;
+    border-radius: 10px;
+    background: #fff;
+    padding: 20px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.attendance-table th {
+    text-align: left;
+    padding: 10px;
+    width: 25%;
+    font-weight: bold;
+}
+
+.attendance-table td {
+    padding: 10px;
+}
+
+.memo-input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 5px;
+    background: #f9f9f9;
+}
+
+.btn-container {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}

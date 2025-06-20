@@ -1,0 +1,73 @@
+.table-wrapper {
+    width: 100%; /* 横幅を90%に広げる（お好みで100%でも可） */
+    margin: 0 auto; /* 中央寄せ */
+  }
+
+  table {
+    width: 100%; /* テーブル自体も幅いっぱいに */
+  }
+
+  .attendance-list-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+  .page-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-left: 5px solid #000;
+    padding-left: 10px;
+  }
+  
+  .month-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 20px;
+  }
+  
+  .month-button {
+    background-color: #eee;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .month-label {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .attendance-table thead th {
+    background-color: #f0f0f0;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  .attendance-table tbody td {
+    padding: 12px;
+    border-top: 1px solid #eee;
+    font-size: 14px;
+  }
+  
+  .detail-link {
+    color: #000;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
